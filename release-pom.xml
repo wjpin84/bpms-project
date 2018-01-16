@@ -9,6 +9,7 @@
   <scm>
     <connection>scm:git:git://git@github.com:wjpin84/bpms-project.git</connection>
     <developerConnection>scm:git:git@github.com:wjpin84/bpms-project.git</developerConnection>
+    <tag>v1.0.2</tag>
     <url>https://github.com:wjpin84/bpms-project.git</url>
   </scm>
   <distributionManagement>
@@ -31,31 +32,22 @@
         <enabled>true</enabled>
       </releases>
       <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>fusesource</id>
-      <url>http://repo.fusesource.com/nexus/content/groups/public/</url>
-    </repository>
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
       </snapshots>
       <id>central</id>
-      <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url>
+      <url>http://localhost:8081/nexus</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
       <releases>
-        <updatePolicy>never</updatePolicy>
+        <enabled>true</enabled>
       </releases>
       <snapshots>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
       </snapshots>
       <id>central</id>
-      <name>Central Repository</name>
-      <url>https://repo.maven.apache.org/maven2</url>
+      <url>http://localhost:8081/nexus</url>
     </pluginRepository>
   </pluginRepositories>
   <build>
