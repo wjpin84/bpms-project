@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jboss.quickstarts.brms</groupId>
   <artifactId>bpms_project</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <name>bpms-project</name>
   <scm>
     <connection>scm:git:git://git@github.com:wjpin84/bpms-project.git</connection>
     <developerConnection>scm:git:git@github.com:wjpin84/bpms-project.git</developerConnection>
     <url>https://github.com:wjpin84/bpms-project.git</url>
-    <tag>HEAD</tag>
+    <tag>v1.0.2</tag>
   </scm>
   <properties>
     <maven-deploy-plugin.version>2.8.1</maven-deploy-plugin.version>
